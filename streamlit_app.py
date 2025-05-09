@@ -12,7 +12,9 @@ st.header("귀여운 고양이가 등장합니당")
 
 
 st.warning("⚠️ 귀여움 주의")
-st.image("https://cdn.animaltoc.com/news/photo/202410/1409_6515_3838.jpg")
+st.image("https://cdn.animaltoc.com/news/photo/202410/1409_6515_3838.jpg", )
+st.write("")
+
 st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGIxeTV0ZW9nMnFxdXppZm1kMXpudjc0aWozYmV1MHl6dHkyZ2dxaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5i7umUqAOYYEw/giphy.gif")
 
 
@@ -34,7 +36,7 @@ if choice == "고양이":
     st.success(choice+"는 너무 귀여웡")
 else :
     st.error("더 귀여운게 있긴해...")
-
+st.write("---")
 
 # 여러 옵션 중 하나 선택
 food = st.radio("먹고 싶은 음식을 선택하세요", ["엽떡", "순두부열라면", "뿌링클"])
