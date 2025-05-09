@@ -1,14 +1,13 @@
 import streamlit as st
 
-st.title("🎈 안녕하세여")
+st.title("🎈 고양이는 너무 귀여워")
 st.info(
-    "제가 누군지 궁금하신가여"
+    "30221 이유나입니다"
 )
 
 # 페이지 구조용 제목 출력
 st.title("지금부터")
 st.header("귀여운 고양이가 등장합니당")
-st.subheader("출처는 구글")
 
 
 
@@ -32,9 +31,9 @@ with st.expander("ℹ️ 강아지는?"):
 choice = st.text_input("고양이와 강아지 중 더 귀여운 것은?")
 
 if choice == "고양이":
-    st.success(choice+"가 더 귀엽긴해요")
+    st.success(choice+"는 너무 귀여웡")
 else :
-    st.error("응아니야")
+    st.error("더 귀여운게 있긴해...")
 
 
 # 여러 옵션 중 하나 선택
